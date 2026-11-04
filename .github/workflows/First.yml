@@ -4,7 +4,7 @@ jobs:
   MyBuild:
     runs-on: windows-latest
     steps:
-       - name: Checkout
+      - name: Checkout
         uses: actions/checkout@v5.0.0
 
       - name: Step2
